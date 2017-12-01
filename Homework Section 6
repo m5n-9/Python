@@ -1,0 +1,52 @@
+Volume of Sphere
+
+def vol(rad):
+	volume=(4*3.14)*(rad**3)/3
+	print(volume)
+	
+
+
+Check if num falls in a given range
+
+def vol(rad):
+	volume=(4*3.14)*(rad**3)/3
+	print(volume)
+ or
+
+
+
+def ran_check(num,low,high):
+	check=num in range(low,high)
+	print(check)
+
+
+
+Count upper case letter lowercase letters
+
+def Upper_Lower(sentence):
+	a=list(sentence)
+	upperCount=0
+	lowerCount=0
+	for letters in a:
+		print (letters)
+		if letters.isalnum():
+			if letters==letters.upper():
+				upperCount=upperCount + 1
+			if letters==letters.lower():
+				lowerCount=lowerCount + 1
+	print ('No of Upper case Characters : ',upperCount)
+	print ('No of Lower case Characters : ',lowerCount)
+	
+
+New unique list
+list(set(samplelist))
+
+
+
+Multiply all numbers in a list
+
+def multiply(numbers):
+	result=1
+	for a in numbers:
+		result=result*a
+	print(result)
