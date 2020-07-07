@@ -8,6 +8,7 @@ trigger:
 
 pool:
  name: testpool1
+ agent: testpod-6cd4d75f6b-8mzf8
 
 steps:
 - script: echo Hello, world!
