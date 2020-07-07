@@ -8,8 +8,9 @@ trigger:
 
 pool:
  name: testpool1
-#  agent: testpod-6cd4d75f6b-8mzf8
- agent: testpod1-5c7f9c5596-mwxzq
+ demands:
+ - agent.name -equals testpod1-5c7f9c5596-mwxzq
+
 
 steps:
 - script: echo Hello, world!
