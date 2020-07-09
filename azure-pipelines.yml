@@ -16,6 +16,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: |
-    sleep 600
-  displayName: 'Run a multi-line script'
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'Azure Pass - Sponsorship(b3f88460-f50b-4620-a7f1-4eaec1c02e1a)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az show account'
