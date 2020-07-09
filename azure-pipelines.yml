@@ -9,7 +9,7 @@ trigger:
 pool:
  name: testpool1
  demands:
- - agent.name -equals testpod1-5c7f9c5596-mwxzq
+ - agent.name -equals mgntest-6888f45b4d-kshq8
 
 
 steps:
@@ -17,6 +17,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    sleep 600
   displayName: 'Run a multi-line script'
