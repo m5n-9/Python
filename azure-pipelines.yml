@@ -18,7 +18,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Azure Pass - Sponsorship(b3f88460-f50b-4620-a7f1-4eaec1c02e1a)'
+    azureSubscription: 'Azure Pass - Sponsorship'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: 'az show account'
