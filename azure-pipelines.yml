@@ -9,7 +9,7 @@ trigger:
 pool:
  name: testpool1
  demands:
- - agent.name -equals mgntest5-78f6cfbdf-pdf8p
+ - agent.name -equals mgntest4-cb4cc8549-v5qpz 
 
 
 steps:
