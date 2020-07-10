@@ -21,4 +21,4 @@ steps:
     azureSubscription: 'Azure Pass - Sponsorship'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az show account'
+    inlineScript: 'az account show'
